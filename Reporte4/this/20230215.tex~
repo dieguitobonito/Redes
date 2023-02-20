@@ -1,0 +1,58 @@
+% Created 2023-02-15 Wed 19:54
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\date{\today}
+\title{}
+\hypersetup{
+ pdfauthor={},
+ pdftitle={},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 28.2 (Org mode 9.5.5)}, 
+ pdflang={English}}
+\begin{document}
+
+\tableofcontents
+
+\emph{Direccionamiento IPv4 con C/DR o subneteo}
+
+\textbf{\textbf{subneteo}}
+
+\begin{itemize}
+\item Identificar No. Redes (3)
+\item Ordenar de mayor a menor
+\end{itemize}
+
+
+\begin{itemize}
+\item Network (192.168.0.0)
+\item Mask (255.255.255.0/25)
+\item Broadcast (Network + suma mask o's)
+\item Gateway
+\item Rango útil (Network + 1 Hasta Broadcast - 1)
+
+192.168.0.1 a 192.168.0.254
+\end{itemize}
+
+
+
+\begin{itemize}
+\item Cómo se establece la dirección de
+\begin{itemize}
+\item Mask
+\end{itemize}
+\end{itemize}
+\section{kafjdsñjfakds}
+\label{sec:orgb7dc3f3}
+\end{document}

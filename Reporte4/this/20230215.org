@@ -1,0 +1,26 @@
+#+LATEX_CLASS: article
+
+/Direccionamiento IPv4 con C/DR o subneteo/
+
+**subneteo**
+
+- Identificar No. Redes (3)
+- Ordenar de mayor a menor
+
+
+- Network (192.168.0.0)
+- Mask (255.255.255.0/25)
+- Broadcast (Network + suma mask o's)
+- Gateway
+- Rango útil (Network + 1 Hasta Broadcast - 1)
+
+  192.168.0.1 a 192.168.0.254
+
+
+
+- Cómo se establece la dirección de
+  - Mask
+  - Broadcast
+  - Rango útil
+  - Gateway
+* kafjdsñjfakds

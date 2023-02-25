@@ -1,0 +1,58 @@
+#*OPTIONS: toc:nil
+#*LATEX_HEADER: \input{portada}
+
+- Establecer
+  - Máscaras
+  - Red
+  - Broadcast
+  - Rango útil
+  - Red
+
+[[./ejercicio.png]]
+
+
+** Tlaquepaque
+- Network: 172.16.0.0
+- Mask: 255.255.255.0
+- Broadcast: 172.16.0.255
+- Rango útil: 172.16.0.1 -> 172.16.0.254
+- Gateway: 172.16.0.254
+
+** Tapalpa
+- Network: 172.16.1.0
+- Mask: 255.255.255.192
+- Broadcast: 172.16.1.63
+- Rango útil: 172.16.1.1 -> 172.16.1.62
+- Gateway: 172.16.1.62
+
+** Enlace Tapalpa - Tlaquepaque
+- Network: 172.16.1.64
+- Mask: 255.255.255.252
+- Broadcast: 172.16.1.67
+- Rango útil: 172.16.1.65 -> 172.16.1.66
+
+[[./ejercicio2.png]]
+
+** Ciudad Juárez
+- Network: 10.0.0.0
+- Mask: 255.255.254.0
+- Broadcast: 10.0.1.255
+- Rango útil: 10.0.1.254 -> 10.0.1.254
+- Gateway: 10.0.1.254
+
+** Mexicali
+- Network: 10.0.3.0
+- Mask: 255.255.255.252
+- Broadcast: 10.0.3.3
+- Rango útil: 10.0.3.1 -> 10.0.3.2
+- Gateway: 10.0.4.254
+
+
+También se vio cómo utilizar /IP Network
+Calculator/, una aplicación de la Play Store que
+estima las variables que utilizamos en clase, es
+muy intuitiva y muchísimo más fácil de utilizar
+que realizar los cálculos uno a uno.
+
+#+attr_latex: :width 200px
+[[./IpvCalc.png]]

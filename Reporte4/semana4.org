@@ -1,0 +1,105 @@
+#+LATEX_HEADER: \input{portada}
+#+OPTIONS: toc:nil
+
+La dirección IP es el /identificador/ de un
+dispositivo dentro de una red, este debe ser único
+y debe seguir el protocolo de red IP.
+
+Existe el famoso protocolo de direccionamiento
+IPv4, sin embargo, las direcciones otorgadas por
+eset protocolo han sido agotadas, por lo tanto, el
+uso de un protocolo, llamado IPv6, es el nuevo
+estándar.
+
+Lo que tienen en común ambos protocolos es que
+ambos:
+- Se encargan de otorgar direcciones IP únicas a
+  cada dispositivo de la red.
+- Ambos pueden asignar direcciones estáticas o
+  dinámicas.
+
+Una dirección IP, es un número de 32 bits.
+Para hacerlo más legible a los humanos, es
+convención separar esos 32 números en grupos de 8:
+
+Ejemplo: $$11000000101010000000000000000001$$
+
+Se separaría en: $$11000000.10101000.00000000.00000001$$
+
+Así, del número separado en 8 dígitos podemos
+representarlo a sistema decimal, quedando: $$192.168.0.1$$
+
+
+En IPv4, cada uno de los campos representa un
+número en el rango de 1 byte (8 bits): 0 - 255.
+
+Una de las características de las direcciones IP
+es que contienten dos componentes:
+- El prefijo de red (bits que identifican a la
+  red).
+- El identificador del dispositivo (bits que
+  identifican al dispositivo que está en esa red).
+
+Se intuye que todos los dispositivos conectados a
+la misma red tendrán el *mismo prefijo*
+
+Si una red:
+- Solo utiliza el primer byte para identificarse,
+  es una red de *clase A*. Si el primer octeto
+  está entre /1 y 127/ es de esta clase.
+- Utiliza dos bytes para identificarse, es *clase
+  B*. Si el primer octeto está entre /128 y 191/ es de
+  esta clase.
+- Utiliza 3 bytes, *clase C*. El primer octeto
+  está entre /192 y 223/.
+
+Como las dos partes de una dirección IP son de
+longitud variable y complementan uno del otro, es
+necesario implementar otro mecanismo para
+delimitar los componentes, se utiliza la *máscara
+de subred*
+
+Al igual que una dirección IP, una máscara es un
+número de 32 bits, pero este *no* es una dirección
+IP:
+- No se representa igual
+- No tiene la misma función
+La máscara es un número que siempre está asociado
+a la IP, y nos indica a partir de qué números
+forman el prefijo y qué números forman el identificador.
+
+Ejemplo, se tiene la siguiente IP clase C:
+$$192.168.0.10$$
+Donde $10$ es el identificador del dispositivo.
+
+Una máscara deberá representar la dirección IP de
+la siguiente manera:
+$$255.255.255.0$$
+
+Donde los primeros 3 bytes de la máscara estarán a
+*1* (representando así la clase C).
+Por lo tanto, se intuye que si se necesita una
+máscara de una red clase B, la máscara deberá
+establecer a *1* los 2 primeros bytes. Misma idea
+con las redes de clase A.
+
+Otra forma de hacer notación de la máscara, es con
+la notación CIDR:
+
+Sea la IP:
+$$192.168.0.10$$
+
+Y su máscara:
+$$255.255.255.0$$
+
+Su notación CIDR sería:
+$$192.168.0.10 / 24$$
+
+Donde:
+- La parte izquiera es la dirección IP.
+- La parte derecha representan los bits de la
+  máscara que están a 1.
+
+Intuyendo:
+- $172.20.10.54 / 16$ es una IP clase B.
+- $10.20.30.40 / 8$ es una IP clase A.

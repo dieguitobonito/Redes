@@ -1,0 +1,20 @@
+#+OPTIONS: toc:nil
+
+- Cable serial DC para conectar las computadoras
+  con los routers
+- Agregar las direcciones de los routers en /Serialn/n/n/
+  - Clock rate 2000000
+- No dejará hacer un ping si no estás en la lista
+  del router
+  - Agregar la network en /RIP/ (ip routing)
+
+- ¿Por qué el primer ping hace time out?
+  Porque el dispositivo que recibe el ping no
+  tiene guardado en su tabla /ARP/ para el
+  destino.
+  Como una agenda telefónica que no tiene agregado
+  un número.
+
+* Ancho de banda
+Determina la cantidad de bits por segundo que se
+transmiten en un cable.

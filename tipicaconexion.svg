@@ -24,9 +24,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="1.055854"
-     inkscape:cx="342.37689"
-     inkscape:cy="288.39215"
+     inkscape:zoom="1.43609"
+     inkscape:cx="347.81943"
+     inkscape:cy="297.6833"
      inkscape:window-width="1366"
      inkscape:window-height="744"
      inkscape:window-x="0"
@@ -568,7 +568,17 @@
          id="tspan3921"
          style="fill:#000000;stroke-width:0.965"
          x="18.742386"
-         y="37.884655">Tapalpa: 60 computadoras</tspan></text>
+         y="37.884655">Manzanillo</tspan><tspan
+         sodipodi:role="line"
+         style="fill:#000000;stroke-width:0.965"
+         x="18.742386"
+         y="41.853405"
+         id="tspan1162">192.168.0.0/24</tspan><tspan
+         sodipodi:role="line"
+         style="fill:#000000;stroke-width:0.965"
+         x="18.742386"
+         y="45.822155"
+         id="tspan1160" /></text>
     <text
        xml:space="preserve"
        style="font-size:3.175px;fill:#000000;stroke-width:0.964999;stroke-dasharray:none"
@@ -579,17 +589,104 @@
          id="tspan4077"
          style="stroke-width:0.965"
          x="83.706299"
-         y="39.944389">Tlaquepaque: 180 computadoras</tspan></text>
+         y="39.944389">Barra de Navidad 192.168.2.0/24</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:3.175px;fill:#00ff00;stroke-width:0.964999;stroke-dasharray:none"
-       x="64.212761"
-       y="33.063812"
-       id="text4083"><tspan
+       style="font-size:3.175px;fill:#000000;fill-opacity:1;stroke-width:0.964999"
+       x="26.062506"
+       y="57.954304"
+       id="text1216"><tspan
          sodipodi:role="line"
-         id="tspan4081"
-         style="fill:#00ff00;stroke-width:0.965"
-         x="64.212761"
-         y="33.063812">172.16.0.0</tspan></text>
+         id="tspan1214"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.965"
+         x="26.062506"
+         y="57.954304">192.168.0.1/24</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#000000;fill-opacity:1;stroke-width:0.964999"
+       x="25.623064"
+       y="89.084763"
+       id="text1216-7"><tspan
+         sodipodi:role="line"
+         id="tspan1214-5"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.965"
+         x="25.623064"
+         y="89.084763">192.168.0.2/24</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.40891px;fill:#000000;fill-opacity:1;stroke-width:1.03609"
+       x="38.236713"
+       y="78.809334"
+       id="text1216-7-3"><tspan
+         sodipodi:role="line"
+         id="tspan1214-5-5"
+         style="fill:#000000;fill-opacity:1;stroke-width:1.03609"
+         x="38.236713"
+         y="78.809334">Gateway</tspan><tspan
+         sodipodi:role="line"
+         style="fill:#000000;fill-opacity:1;stroke-width:1.03609"
+         x="38.236713"
+         y="83.070473"
+         id="tspan1716">192.168.0.254/24</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.40891px;fill:#000000;fill-opacity:1;stroke-width:1.03609"
+       x="63.838341"
+       y="75.503441"
+       id="text1216-7-3-6"><tspan
+         sodipodi:role="line"
+         id="tspan1214-5-5-2"
+         style="fill:#000000;fill-opacity:1;stroke-width:1.03609"
+         x="63.838341"
+         y="75.503441">192.168.1.1/24</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#000000;fill-opacity:1;stroke-width:0.964999"
+       x="81.841293"
+       y="57.188282"
+       id="text1467"><tspan
+         sodipodi:role="line"
+         id="tspan1465"
+         style="stroke-width:0.965"
+         x="81.841293"
+         y="57.188282">192.168.1.2/24</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#000000;fill-opacity:1;stroke-width:0.964999"
+       x="98.700256"
+       y="81.555618"
+       id="text1471"><tspan
+         sodipodi:role="line"
+         id="tspan1469"
+         style="stroke-width:0.965"
+         x="98.700256"
+         y="81.555618">GW</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.965"
+         x="98.700256"
+         y="85.524368"
+         id="tspan1504">192.168.2.254/24</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#000000;fill-opacity:1;stroke-width:0.964999"
+       x="157.26776"
+       y="88.610718"
+       id="text1471-9"><tspan
+         sodipodi:role="line"
+         id="tspan1469-1"
+         style="stroke-width:0.965"
+         x="157.26776"
+         y="88.610718">192.168.2.2/24</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;fill:#000000;fill-opacity:1;stroke-width:0.964999"
+       x="160.185"
+       y="59.003052"
+       id="text1502"><tspan
+         sodipodi:role="line"
+         id="tspan1500"
+         style="stroke-width:0.965"
+         x="160.185"
+         y="59.003052">192.168.2.1/24</tspan></text>
   </g>
 </svg>
